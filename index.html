@@ -1,5 +1,4 @@
-<!DOCTYPE html> <!-- this element defines broswer that this file is html5 files so that 
-browser can rander it-->
+<!DOCTYPE html> <!-- this element defines broswer that this file is html5 files so that browser can rander it-->
 <html lang="en"> <!--this element is root of the html file, all other elements and attributes are descendents of this elements-->
 <head> <!-- head elements contains all imformation related the page-->
     <meta charset="UTF-8"> <!-- meta elements defines the summary information to the search engines so that there web crawler indentify to information about the page
@@ -11,28 +10,34 @@ browser can rander it-->
     <link rel="stylesheet" href="css/master.css">
     
 </head> 
+<!-- remove this line during deploy if you want -->    <span style="position: absolute; font-size:20px; background-color:aqua; padding:10px; font-weight:bold; border-radius:8px; top:100px; left:350px; z-index: 30;" id="remove"> &#8592; Hover me</span>
 <body> <!-- body element contains content of the page-->
-    <table cellspacing="100">
-        <tr>
-            <td><img src="image/abhay.jpeg" alt="abhay's picture"  width="200" height="200"></td>
-            <td><h1> ABHAY KUMAR🚩</h1>
+    <div class="grid">
+        <div style="width:100%; align-items:center; display:flex; justify-content:center;">
+    <img class="circular" src="image/abhay.jpeg" alt="abhay's picture" style="align-items:center; width:200px; height:200px;">
+        </div>
+        <div style="display:flex; flex-direction:column;">   
+        <h1> ABHAY KUMAR🚩</h1>
                 <p><em>Upcoming web developer and student  </em></p>
                 <p> I am student of computer science who is learning web development right now. 
                     I want learn more about other computer related thing like
                     <strong> Machine learning, Cyber security, Artficial intelligence,</strong> 
                     and upcoming technologies which is a part of computer science.
-                </p> </td>
-        </tr>
-    </table>
+                </p>
+                 <!--flex container end  -->
+            </div>
+    <!-- grid container end -->
+    </div>
+
     <hr>
-    <h2>School and Edution </h2>
-    <ul>
+    <h2 class="special_class_for_margin">School and Edution </h2>
+    <ul class="special_class_for_margin">
         <li>HIGH SCHOOL</li>
         <ul>
             <li> Mahindra high school.</li>
         </ul>
     </ul>
-    <ul>
+    <ul class="special_class_for_margin">
         <li>COLLAGE</li>
         <ul>
             <li> Bachorler's in computer application from 
@@ -40,15 +45,15 @@ browser can rander it-->
         </ul>
     </ul>
     <hr>
-    <h2> Hobbies</h2>
-    <ol type="i">
+    <h2 class="special_class_for_margin"> Hobbies</h2>
+    <ol type="a" class="special_class_for_margin">
         <li>Watching <a href="https://zoro.to/" target="_blank">anime.</a> </li>
         <li>Traveling.</li>
         <li>Listening music.</li>
     </ol>
     <hr>
-    <h2>Skills</h2>
-    <table cellspacing="10">
+    <h2 class="special_class_for_margin">Skills</h2>
+    <table cellspacing="10" class="special_class_for_margin">
         <tr>
             <td>HTML</td>
             <td>★★★★☆</td>
@@ -58,11 +63,16 @@ browser can rander it-->
             <td>★★★★☆</td>
         </tr>
     </table> 
-<center>    
+<div style="width:100%; text-align:center; margin-bottom:10px;" class="special_class_for_margin">    
     <hr>
-    <a href="contactme.html" target="_blank"><strong class="contactme" >Contact me!!</strong></a>
+    <a href="./contactme.html" target="_blank"><strong class="contactme" >Contact me!!</strong></a>
     <hr>
-</center>
+</div>
     
+    <script>
+        setTimeout(() => {
+            document.getElementById('remove').style.display = "none";
+        }, 2000);
+    </script>
 </body>
 </html>
