@@ -1,9 +1,12 @@
 body {
-    background-color:#F0E9FF;
-    font-family: Lato;
+    background-color: rgb(240, 233, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #545454;
+    color:black;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
 }
 
 hr {
@@ -15,17 +18,51 @@ hr {
 }
 
 h1 {
-   color:#CEA9FF
+   color:#0f7aec;
+   font-weight: bold;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+   width: fit-content;
+   padding-right: 50px;
 }
 
 h2 {
-    color:#CEA9FF;
+    color:#7615f5;
 }
 img {
     width:150px;
     height:150px;
 }
 .contactme {
-    color:#CEA9FF;
+    color:#0f7aec;
+    box-shadow: 5px 3px 10px 3px #888888;
+    padding: 8px;
 
+}
+.circular { /* hover is pesudo class that give color change effect, when mouse is got roll over the surface of the image*/
+    border-radius:100%;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.special_class_for_margin {
+    margin-left: 50px;
+}
+
+a:hover {
+    color: darkred;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+img:hover, img:focus, img:active {
+    filter: grayscale(0);
 }
