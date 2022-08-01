@@ -1,0 +1,127 @@
+a{
+    color:#A66CFF;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    margin:10px 20px;
+}
+a:hover{
+    color:#EAF6F6;
+}
+body{
+    color:#40514e;
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+
+ h1{
+    margin: 50px auto 0 auto;
+    font-size:5.625rem;
+    color:#9C9EFE;
+    font-weight:normal;
+    line-height:0;
+    font-family: 'Sacramento', cursive;
+ }    
+
+ h2{
+    font-size:2.5rem;
+    color:#9C9EFE;
+    font-weight:normal;
+    line-height:2;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom:10px;
+ }
+ h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#9C9EFE;
+ }
+ hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 100px auto;
+
+ }
+ p{
+    line-height:2;
+ }
+ .btn {
+    -webkit-border-radius: 49;
+    -moz-border-radius: 49;
+    border-radius: 49px;
+    font-family: room, arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #A66CFF;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #A66CFF;
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    background-color:#9C9EFE ;
+    padding:50px 0 20px;
+  }
+.copyright{
+    color:#EAF6F6;
+    font-size:0.95rem;
+    padding:20px 0;
+}
+ 
+
+.cloud1{
+    position:absolute;
+    top:100px;
+    right:250px;
+
+}
+.cloud2{
+    position:absolute;
+    bottom:300px;
+    left:300px;
+}
+.contact{
+    width:40%;
+    margin:40px auto 60px;
+}
+.contact-me{
+    margin:100px;
+}
+.footer{
+    font-family: 'Montserrat', sans-serif;
+ } 
+.intro{
+    width:30%;
+    margin:auto;
+}
+ .middle-container{
+    margin: 100px 0;
+ }
+
+.pskill-img{
+    width:25%;
+    float:right;
+    margin-left:30px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height:2;
+
+}
+.top-container{
+    background-color:#B1E1FF;
+    position:relative;
+    padding-top:100px;
+}
+
+.webd-img{
+    width:25%;
+    float:left;
+    margin-right:30px;
+}
