@@ -105,7 +105,7 @@ body{
 .pskill-img{
     width:25%;
     float:right;
-    margin-left:30px;
+    margin-left:40px;
 }
 .skill-row{
     width:50%;
@@ -123,5 +123,5 @@ body{
 .webd-img{
     width:25%;
     float:left;
-    margin-right:30px;
+    margin-right:40px;
 }
